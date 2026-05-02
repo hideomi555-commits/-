@@ -1168,28 +1168,36 @@ dd {
   }
 
   .hero {
+    display: flex;
+    flex-direction: column;
     min-height: auto;
-    padding-bottom: 20px;
+    padding-bottom: 32px;
   }
 
   .hero-art {
-    right: -46vw;
-    bottom: 0;
-    width: 148vw;
-    max-width: none;
-    height: 100%;
-    opacity: .24;
-    object-position: right bottom;
+    order: 2;
+    position: relative;
+    right: auto;
+    bottom: auto;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: none;
+    margin: 8px auto 0;
+    opacity: .55;
+    object-fit: contain;
+    object-position: center center;
   }
 
   .hero::after {
-    background: linear-gradient(90deg, rgba(255, 255, 255, .98) 0%, rgba(255, 255, 255, .9) 58%, rgba(255, 255, 255, .55) 100%);
+    display: none;
   }
 
   .hero-copy {
+    order: 1;
     width: 100%;
     max-width: 620px;
-    padding: clamp(48px, 9vh, 76px) 20px 28px;
+    padding: clamp(48px, 9vh, 76px) 20px 18px;
   }
 
   .eyebrow {
@@ -1483,9 +1491,8 @@ dd {
   }
 
   .hero-art {
-    right: -62vw;
-    width: 172vw;
-    opacity: .2;
+    width: 100%;
+    opacity: .58;
   }
 
   .hero-copy {
