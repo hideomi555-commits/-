@@ -1772,3 +1772,46 @@ dd {
     line-height: 1.45 !important;
   }
 }
+
+/* Final mobile hero typography balance for GitHub Pages. */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: clamp(2.55rem, 11vw, 3.6rem) !important;
+    line-height: 0.95 !important;
+    margin-bottom: 8px !important;
+  }
+
+  .hero .subtitle {
+    font-size: 0.78rem !important;
+    letter-spacing: 0.16em !important;
+    margin-top: -2px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .hero-message {
+    font-size: clamp(1.45rem, 5.8vw, 2.15rem) !important;
+    line-height: 1.45 !important;
+    margin-bottom: 24px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: clamp(2.35rem, 10.5vw, 3.25rem) !important;
+    line-height: 0.95 !important;
+    margin-bottom: 6px !important;
+  }
+
+  .hero .subtitle {
+    font-size: 0.72rem !important;
+    letter-spacing: 0.14em !important;
+    margin-top: -3px !important;
+    margin-bottom: 18px !important;
+  }
+
+  .hero-message {
+    font-size: clamp(1.32rem, 5.4vw, 1.9rem) !important;
+    line-height: 1.48 !important;
+    margin-bottom: 22px !important;
+  }
+}
