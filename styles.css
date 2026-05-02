@@ -1622,3 +1622,62 @@ dd {
     padding: 26px 20px;
   }
 }
+
+@media (max-width: 768px) {
+  .hero {
+    position: relative;
+    overflow: hidden;
+    min-height: 760px;
+  }
+
+  .hero-art {
+    position: absolute !important;
+    z-index: 0 !important;
+    top: 120px !important;
+    right: -26vw !important;
+    bottom: auto !important;
+    width: 108vw !important;
+    height: auto !important;
+    max-width: none !important;
+    margin: 0 !important;
+    opacity: .34 !important;
+    object-fit: contain !important;
+    object-position: right top !important;
+    pointer-events: none !important;
+    transform: none !important;
+  }
+
+  .hero-copy {
+    position: relative;
+    z-index: 2;
+  }
+
+  .hero::after {
+    display: block;
+    z-index: 1;
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, .95) 0%,
+      rgba(255, 255, 255, .82) 52%,
+      rgba(255, 255, 255, .32) 100%
+    ) !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    min-height: 740px;
+  }
+
+  .hero-art {
+    top: 138px !important;
+    right: -36vw !important;
+    width: 126vw !important;
+    height: auto !important;
+    opacity: .32 !important;
+  }
+
+  .hero h1 {
+    font-size: clamp(4rem, 18vw, 5.9rem);
+  }
+}
