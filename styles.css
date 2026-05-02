@@ -1868,3 +1868,20 @@ dd {
     line-height: 1.46 !important;
   }
 }
+
+/* Align the mobile hero eyebrow with the Forest wordmark. */
+@media (max-width: 768px) {
+  .hero .eyebrow {
+    width: min(calc(100% - clamp(12px, 4vw, 32px)), 380px) !important;
+    margin: 0 0 10px clamp(12px, 4vw, 32px) !important;
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero .eyebrow {
+    width: min(calc(100% - 18px), 350px) !important;
+    margin: 0 0 9px 18px !important;
+    text-align: center !important;
+  }
+}
