@@ -1640,7 +1640,7 @@ dd {
     height: auto !important;
     max-width: none !important;
     margin: 0 !important;
-    opacity: .38 !important;
+    opacity: .40 !important;
     object-fit: contain !important;
     object-position: right top !important;
     pointer-events: none !important;
@@ -1664,12 +1664,12 @@ dd {
   }
 
   .hero h1 {
-    font-size: clamp(3.9rem, 16vw, 5.4rem) !important;
+    font-size: clamp(3.75rem, 15.2vw, 5.2rem) !important;
     line-height: .95;
   }
 
   .hero-message {
-    font-size: clamp(1.45rem, 6.2vw, 2.32rem) !important;
+    font-size: clamp(1.36rem, 5.8vw, 2.15rem) !important;
     line-height: 1.42;
     letter-spacing: .01em;
   }
@@ -1689,12 +1689,12 @@ dd {
   }
 
   .hero h1 {
-    font-size: clamp(3.6rem, 15vw, 4.9rem) !important;
+    font-size: clamp(3.45rem, 14.5vw, 4.7rem) !important;
     line-height: .95;
   }
 
   .hero-message {
-    font-size: clamp(1.25rem, 6.7vw, 1.85rem) !important;
+    font-size: clamp(1.18rem, 6.2vw, 1.72rem) !important;
     line-height: 1.45;
   }
 
