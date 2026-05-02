@@ -1703,3 +1703,72 @@ dd {
     line-height: 1.8;
   }
 }
+
+/* Final mobile hero override for GitHub Pages cache/version verification. */
+@media (max-width: 768px) {
+  .hero {
+    position: relative !important;
+    overflow: hidden !important;
+  }
+
+  .hero-art {
+    position: absolute !important;
+    top: 130px !important;
+    right: -12vw !important;
+    bottom: auto !important;
+    width: 120vw !important;
+    height: auto !important;
+    max-width: none !important;
+    margin: 0 !important;
+    opacity: 0.46 !important;
+    object-fit: contain !important;
+    object-position: right top !important;
+    z-index: 0 !important;
+    pointer-events: none !important;
+    transform: none !important;
+  }
+
+  .hero-copy {
+    position: relative !important;
+    z-index: 2 !important;
+  }
+
+  .hero h1 {
+    font-size: clamp(3.25rem, 13.5vw, 4.6rem) !important;
+    line-height: 0.95 !important;
+  }
+
+  .hero-message {
+    font-size: clamp(1.85rem, 7.2vw, 2.85rem) !important;
+    line-height: 1.45 !important;
+    letter-spacing: 0.01em !important;
+  }
+
+  .hero::after {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.94) 0%,
+      rgba(255, 255, 255, 0.78) 48%,
+      rgba(255, 255, 255, 0.22) 100%
+    ) !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-art {
+    top: 145px !important;
+    right: -18vw !important;
+    width: 126vw !important;
+    opacity: 0.42 !important;
+  }
+
+  .hero h1 {
+    font-size: clamp(3.05rem, 13vw, 4.25rem) !important;
+    line-height: 0.95 !important;
+  }
+
+  .hero-message {
+    font-size: clamp(1.65rem, 6.7vw, 2.45rem) !important;
+    line-height: 1.45 !important;
+  }
+}
