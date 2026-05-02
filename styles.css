@@ -1640,7 +1640,7 @@ dd {
     height: auto !important;
     max-width: none !important;
     margin: 0 !important;
-    opacity: .34 !important;
+    opacity: .38 !important;
     object-fit: contain !important;
     object-position: right top !important;
     pointer-events: none !important;
@@ -1659,8 +1659,19 @@ dd {
       90deg,
       rgba(255, 255, 255, .95) 0%,
       rgba(255, 255, 255, .82) 52%,
-      rgba(255, 255, 255, .32) 100%
+      rgba(255, 255, 255, .34) 100%
     ) !important;
+  }
+
+  .hero h1 {
+    font-size: clamp(3.9rem, 16vw, 5.4rem) !important;
+    line-height: .95;
+  }
+
+  .hero-message {
+    font-size: clamp(1.45rem, 6.2vw, 2.32rem) !important;
+    line-height: 1.42;
+    letter-spacing: .01em;
   }
 }
 
@@ -1674,10 +1685,21 @@ dd {
     right: -36vw !important;
     width: 126vw !important;
     height: auto !important;
-    opacity: .32 !important;
+    opacity: .36 !important;
   }
 
   .hero h1 {
-    font-size: clamp(4rem, 18vw, 5.9rem);
+    font-size: clamp(3.6rem, 15vw, 4.9rem) !important;
+    line-height: .95;
+  }
+
+  .hero-message {
+    font-size: clamp(1.25rem, 6.7vw, 1.85rem) !important;
+    line-height: 1.45;
+  }
+
+  .hero-copy .lead {
+    font-size: 1rem;
+    line-height: 1.8;
   }
 }
