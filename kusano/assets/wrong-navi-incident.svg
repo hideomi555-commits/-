@@ -1,1 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" role="img" aria-label="客の要望と違うナビが取り付けられた架空事故報告の生成画像"><image href="wrong-navi-incident.jpg" width="240" height="160" preserveAspectRatio="xMidYMid slice"/><rect x="0" y="0" width="240" height="160" fill="none" stroke="#ff4d32" stroke-width="4"/><text x="120" y="149" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="900" fill="#ffd42a">ナビが最初に迷いました</text></svg>
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1400 950' role='img' aria-label='客の要望と違うナビが取り付けられた架空事故報告イラスト'>
+  <defs>
+    <linearGradient id='paper' x1='0' x2='1' y1='0' y2='1'><stop offset='0' stop-color='#fff7d1'/><stop offset='1' stop-color='#ffd42a'/></linearGradient>
+    <pattern id='grid' width='36' height='36' patternUnits='userSpaceOnUse'><path d='M36 0H0v36' fill='none' stroke='#111' stroke-opacity='.12' stroke-width='2'/></pattern>
+    <filter id='shadow'><feDropShadow dx='0' dy='14' stdDeviation='8' flood-color='#000' flood-opacity='.32'/></filter>
+  </defs>
+  <rect width='1400' height='950' fill='#111'/>
+  <rect x='54' y='54' width='1292' height='842' fill='url(#paper)' stroke='#111' stroke-width='16'/>
+  <rect x='82' y='82' width='1236' height='786' fill='url(#grid)'/>
+  <rect x='82' y='82' width='1236' height='96' fill='#ff5f3d' stroke='#111' stroke-width='8'/>
+  <text x='700' y='145' text-anchor='middle' font-family='system-ui,sans-serif' font-size='48' font-weight='1000' fill='#111'>新車ジムニー案件：ナビだけ別ルート</text>
+  <g transform='translate(135 252)' filter='url(#shadow)'>
+    <path d='M62 230c9-75 54-138 128-188h455c79 42 136 104 172 188h74c28 0 50 22 50 50v64H12v-64c0-28 22-50 50-50z' fill='#f9f9f9' stroke='#111' stroke-width='14'/>
+    <path d='M220 65h330c59 31 107 83 141 151H143c16-62 42-112 77-151z' fill='#151515'/>
+    <path d='M247 90h134v104H194c11-43 28-78 53-104zM407 90h124c47 25 82 60 108 104H407z' fill='#55d7ff'/>
+    <rect x='86' y='240' width='148' height='74' fill='#ffd42a' stroke='#111' stroke-width='8'/><text x='160' y='288' text-anchor='middle' font-family='system-ui,sans-serif' font-size='28' font-weight='900' fill='#111'>新車</text>
+    <rect x='580' y='240' width='230' height='74' fill='#ff5f3d' stroke='#111' stroke-width='8'/><text x='695' y='288' text-anchor='middle' font-family='system-ui,sans-serif' font-size='28' font-weight='900' fill='#111'>ナビ違い</text>
+    <circle cx='185' cy='372' r='68' fill='#111' stroke='#777' stroke-width='12'/><circle cx='185' cy='372' r='28' fill='#ffd42a'/>
+    <circle cx='725' cy='372' r='68' fill='#111' stroke='#777' stroke-width='12'/><circle cx='725' cy='372' r='28' fill='#ffd42a'/>
+  </g>
+  <g transform='translate(880 250)' filter='url(#shadow)'>
+    <rect width='335' height='430' rx='20' fill='#151515' stroke='#111' stroke-width='10'/>
+    <rect x='28' y='36' width='279' height='258' rx='10' fill='#0d2a35' stroke='#55d7ff' stroke-width='6'/>
+    <path d='M55 250c50-75 97-46 135-122s55-58 91-38' fill='none' stroke='#ffd42a' stroke-width='18' stroke-linecap='round'/>
+    <rect x='83' y='72' width='138' height='52' fill='#ff5f3d'/><text x='152' y='107' text-anchor='middle' font-family='system-ui,sans-serif' font-size='26' font-weight='900' fill='#111'>取付B</text>
+    <path d='M70 324h198M70 360h160' stroke='#ffd42a' stroke-width='12'/>
+    <text x='168' y='413' text-anchor='middle' font-family='system-ui,sans-serif' font-size='32' font-weight='900' fill='#ffd42a'>案内失敗</text>
+  </g>
+  <g transform='translate(136 690)'><rect width='700' height='128' fill='#111' stroke='#ff5f3d' stroke-width='8'/><text x='36' y='48' font-family='system-ui,sans-serif' font-size='34' font-weight='1000' fill='#ffd42a'>客の要望：希望Aナビ</text><text x='36' y='98' font-family='system-ui,sans-serif' font-size='34' font-weight='1000' fill='#ff5f3d'>取付結果：なぜかBナビ</text></g>
+  <g transform='translate(520 198)'><rect width='230' height='120' fill='#fff7d1' stroke='#111' stroke-width='8'/><path d='M22 35h165M22 72h120' stroke='#111' stroke-width='12'/><text x='115' y='112' text-anchor='middle' font-family='system-ui,sans-serif' font-size='26' font-weight='900' fill='#ff5f3d'>確認した気</text></g>
+  <path d='M785 440c62-60 80-83 96-132' fill='none' stroke='#ff5f3d' stroke-width='22' stroke-linecap='round'/><path d='m884 304-6 86 66-55z' fill='#ff5f3d'/>
+  <g transform='translate(1020 655) rotate(-8)'><rect width='250' height='92' fill='none' stroke='#ff5f3d' stroke-width='10'/><text x='125' y='58' text-anchor='middle' font-family='system-ui,sans-serif' font-size='34' font-weight='1000' fill='#ff5f3d'>要確認</text></g>
+</svg>
