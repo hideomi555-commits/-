@@ -1,3 +1,7 @@
+document.querySelectorAll('img[src$=".svg"]').forEach((image) => {
+  image.src = image.src.replace(/\.svg(\?.*)?$/, '.jpg');
+});
+
 const revealTargets = document.querySelectorAll(
   ".section-heading, .feature-card, .meter, .timeline li, blockquote, .memo, .service-grid span, .poster-card, .danger-copy, .incident-grid article, .case-paper, .case-visual, .panic-tile, .disaster-grid article"
 );
